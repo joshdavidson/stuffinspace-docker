@@ -1,5 +1,7 @@
-# StuffinSpace-docker
+# StuffInSpace-docker
 Docker build files for the jeyoder StuffinSpace project
-## To build Docker Image
-git submodule update --init --recursive
-docker build -t joshdavidson/StuffInSpace --force-rm .
+## To build this Docker Image
+```
+$ git submodule update --init --recursive
+$ docker build -t joshdavidson/stuffinspace --force-rm .
+```
