@@ -1,0 +1,3 @@
+[submodule "StuffInSpace"]
+	path = app
+	url = https://github.com/jeyoder/StuffInSpace.git
