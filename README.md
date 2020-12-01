@@ -5,3 +5,7 @@ Docker build files for the jeyoder StuffinSpace project
 $ git submodule update --init --recursive
 $ docker build -t joshdavidson/stuffinspace --force-rm .
 ```
+## To run Docker container
+```
+$ docker run -d --name stuffinspace -p 80:80 joshdavidson/stuffinspace
+```
